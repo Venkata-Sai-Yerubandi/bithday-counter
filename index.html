@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>countdown-timer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>countdown timer for your upcoming birthday</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>enter your birthdate</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <input type="date" id="date" />
+          </td>
+         
+        </tr>
+      </tbody>
+    </table>
+    <button id="calculate">calculate</button>
+    <button id="stop">stop</button>
+    <button id="reset">reset</button>
+    <div class="countdown">
+      <div>
+        <p class="heading">days</p>
+        <div class="time" id="countdays">0</div>
+      </div>
+      <div>
+        <p  class="heading">hours</p>
+        <div class="time" id="counthours">0</div>
+      </div>
+      <div>
+        <p  class="heading">
+            minutes
+        </p>
+        <div class="time" id="countminutes">0</div>
+      </div>
+      <div>
+        <p  class="heading">seconds</p>
+        <div class="time" id="countseconds">0</div>
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    
+  </body>
+</html>

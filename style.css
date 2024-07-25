@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    background: #131313;
+    
+}
+h1{
+    color: #f5f5f5;
+    font-size: 40px;
+}
+table{
+    margin: auto;
+}
+th{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+input{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+button{
+    min-width: 120px;
+    margin: 20px  10px;
+    padding: 10px;
+    font-size:20px;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    
+}
+.countdown{
+    display: flex;
+    justify-content: center;
+    color: #f5f5f5;
+}
+.heading{
+    color: rgb(248, 109, 109);
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.time{
+    background-color: rgb(133, 133, 193);
+    color: #FFFFFF;
+    font-size: 100px;
+    width: 100px;
+    margin: 0px 15px;
+}
+
