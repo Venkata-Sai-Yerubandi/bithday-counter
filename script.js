@@ -44,11 +44,13 @@ else{
 }
 }
 function reset(){
+     clearInterval(interval);
     document.querySelector('#countdays').innerText=0;
      document.querySelector('#counthours').innerText=0;
      document.querySelector('#countminutes').innerText=0;
      document.querySelector('#countseconds').innerText=0;
 
 }
+
 
 
